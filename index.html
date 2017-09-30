@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<div class="hLeft">
+					<span></span>
+					<span>天天云盘</span>
+				</div>
+				<div class="hRight">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="warnBox">
+					<div class="warnSelct">请选择文件</div>
+					<div class="warnDelSucess"></div>
+				</div>
+				
+			</header>
+			<div class="navBox">
+				<nav class="navBar">
+					<a href="javascript:;"><span></span>下载</a>
+					<a href="javascript:;"><span></span>分享</a>
+					<a href="javascript:;" class="moveToBtn"><span></span>移动到</a>
+					<a href="javascript:;" class="renameBtn"><span></span>重命名</a>
+					<a href="javascript:;" class="delFile"><span></span>删除</a>
+					<a href="javascript:;" class="createFile"><span></span>新建文件夹</a>
+					<a href="javascript:;" class="refreshAll"><span></span></a>
+				</nav>
+				<div class="navRight">
+					<a href="javascript:;" class="changeBtn"><span></span></a>
+					<a href="javascript:;"><span></span></a>
+				</div>
+			</div>
+			<div class="middle">
+				<ul class="leftBox caTree">
+					<!--<li>
+						<h3 class="first">
+							<em class="downArr"></em>
+							<span class="nodeName"><span class="folder"></span>微云</span>
+						</h3>
+						<ul>
+							<li>
+								<h3 class="second">
+									<em class="downArr"></em>
+									<span class="nodeName"><span class="folder"></span>JS课程</span>
+								</h3>
+								<ul>
+									<li>
+										<h3 class="third">
+											<em></em>
+											<span class="nodeName"><span class="file"></span>123</span>
+										</h3>
+									</li>
+									<li>
+										<h3 class="third">
+											<em class="downArr"></em>
+											<span class="nodeName" ><span class="folder"></span>JS基础课程</span>
+										</h3>
+										<ul>
+											<li>
+												<h3 class="fourth">
+													<em></em>
+													<span class="nodeName"><span class="file"></span>123</span>
+												</h3>
+											</li>
+											<li>
+												<h3 class="fourth">
+													<em class="rightArr"></em>
+													<span class="nodeName"><span class="folder"></span>响应式</span>
+												</h3>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>-->
+				</ul>
+				<div class="rightBox">
+					<div class="rbTitle">
+						<div class="check navCheck"></div>
+						<ul class="rbtList">
+							<!--<li>
+								<a href="javascript:;">微云</a>
+								<span></span>
+							</li>
+							<li>
+								<a href="javascript:;">JS课程</a>
+								<span></span>
+							</li>
+							<li>
+								<a href="javascript:;">CSS课程</a>
+							</li>-->
+						</ul>						
+					</div>
+					<div class="rightList" id="mRight" >
+						<div class="rlDivTwo">
+							<ul class="rdtwoList">
+								<!--<li>
+									<div>
+										<em class="rdtCheck check"></em>
+										<span>基础课程</span>
+									</div>
+									<nav class="funcNav">
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+									</nav>
+									<time>2016-08-22 16:08</time>
+								</li>
+								<li>
+									<div>
+										<em class="rdtCheck check"></em>
+										<span>基础课程</span>
+									</div>
+									<nav class="funcNav">
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+										<a href="javascript:;"></a>
+									</nav>
+									<time>2016-08-22 16:08</time>
+								</li>-->
+							</ul>
+						</div>
+						<div class="rlDivOne">
+							<ul class="rClickBox">
+									<li>打开</li>
+									<li>新建文件夹</li>
+									<li>删除</li>
+									<li>重命名</li>
+									<li>移动到</li>
+							</ul>
+							<ul class="rldoList">
+								<!--<li id="budget"><span>1</span></li>-->
+								<!--<li class="liSelected">
+									<img src="img/file.png"/>
+									<input type="text" value="css课程" disabled="true"/>
+								</li>
+								<li>
+									<img src="img/file.png"/>
+									<input type="text" value="css课程" disabled="true"/>
+								</li>-->
+							</ul>
+							<!--<input type="text" value="css课程" disabled="true" placeholder="新建文件夹"/>-->
+						</div>
+						<div class="noResult">
+							<div class="nrBg"></div>
+						</div>
+												
+					</div>
+				</div>
+			</div>
+			<div class="dialogBox">
+				<div class="storeBox">
+					<div class="sbTitle">
+						<h3>选择存储位置</h3>
+						<span class="closed"></span>
+					</div>
+					<p class="sbRoot">JS基础课程</p>
+					<ul class="sbTree caTree">
+						<!--<h3><span></span></h3>
+						<ul>
+							<li>
+								<h3><span></span></h3>
+								<ul>
+									<li>
+										<h3><span></span></h3>
+									</li>
+								</ul>
+							</li>
+						</ul>-->
+					</ul>
+					<div class="sbBtn btnBox">
+						<input type="button" class="sure" value="确定"/>
+						<input type="button" class="cancel" value="取消"/>
+					</div>
+				</div>
+				<div class="deleteBox">
+					<span class="closed dbClose"></span>
+					<div class="dbCon">
+						<span></span>
+						<div class="dbcRight"></div>
+					</div>
+					<div class="dbBtn btnBox">
+						<input type="button" class="sure" value="确定"/>
+						<input type="button" class="cancel" value="取消"/>
+					</div>
+				</div>
+				<div class="deleting">
+					<span></span>
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/mTween.js"></script>
+		<script type="text/javascript" src="js/tools.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
